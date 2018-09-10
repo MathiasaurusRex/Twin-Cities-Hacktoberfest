@@ -31,7 +31,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body className="mr-body">
+        <body>
           <Main />
           <NextScript />
         </body>
