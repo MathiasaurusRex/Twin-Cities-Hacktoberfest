@@ -6,7 +6,7 @@ const HeaderSection = props => (
       <span>Twin Cities 2018</span>
       <span>HacktoberFest</span>
     </h1>
-    <h2 className="tc-hf--subtitle">Let's build a spooky website together</h2>
+    <h2 className="tc-hf--subtitle">Let's build a spooky website together!!</h2>
     <button>Sign Up</button>
 
     <style jsx>{`
