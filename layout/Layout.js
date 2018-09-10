@@ -22,8 +22,8 @@ class Layout extends Document {
           <meta name="description" content={this.props.metaDescription} />
 
           {/* <!-- Schema.org for Google --> */}
-          <meta itemprop="name" content={this.props.title} />
-          <meta itemprop="description" content={this.props.metaDescription} />
+          <meta itemProp="name" content={this.props.title} />
+          <meta itemProp="description" content={this.props.metaDescription} />
 
           {/* <!-- Twitter --> */}
           <meta name="twitter:card" content="summary" />
@@ -48,7 +48,6 @@ class Layout extends Document {
           <meta name="og:url" content={this.props.siteURL} />
           <meta name="og:site_name" content={this.props.title} />
           <meta name="og:type" content="website" />
-          <link rel="manifest" href="/static/manifest.json" />
         </Head>
 
         {this.props.children}

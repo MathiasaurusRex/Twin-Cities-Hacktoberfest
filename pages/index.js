@@ -1,17 +1,17 @@
 import Link from "next/link";
 import fetch from "isomorphic-unfetch";
 
-import Layout from "../components/Layout";
+import Layout from "../layout/Layout";
+import HeaderSection from "../layout/HeaderSection";
 // import WordPressAPI from '../utils/api';
 
 const Index = props => (
   <Layout
     title="Twin Cities Hacktoberfest 2018"
-    description="Developer, User Experience Designer, Digital Strategist"
-    metaDescription="Mathias Rechtzigel is a web product developer located in Minneapolis, Minnesota with a focus on design, user experience, accessible and semantic front end code."
+    metaDescription="Twin Cities Hacktoberfest is organized by M.R., but created with love and care from individuals just like you across the Minnesota."
     siteURL="https://www.mathiasrechtzigel.com"
   >
-    This is a test
+    <HeaderSection />
   </Layout>
 );
 

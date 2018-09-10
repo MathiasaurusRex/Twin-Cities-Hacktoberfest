@@ -22,12 +22,12 @@ export default class MyDocument extends Document {
           <link
             rel="shortcut icon"
             type="image/x-icon"
-            href="/static/assets/mr2.ico"
+            href="/static/assets/tc.ico"
           />
 
           <link rel="stylesheet" href="/_next/static/style.css" />
           <link
-            href="https://fonts.googleapis.com/css?family=Domine|Josefin+Sans"
+            href="https://fonts.googleapis.com/css?family=Griffy|Open+Sans"
             rel="stylesheet"
           />
         </Head>
