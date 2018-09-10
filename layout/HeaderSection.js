@@ -27,8 +27,9 @@ const HeaderSection = props => (
 
       .tc-hf--header:before {
         content: "";
-        background-image: url(../static/assets/whitenoise-361x370-1.png);
-        background-position: center, center;
+        background-color: #c0a8e8;
+        background-image: url(../static/assets/whitenoise-361x370.png);
+        background-position: center;
         height: 100%;
         width: 100%;
         position: absolute;
@@ -54,15 +55,26 @@ const HeaderSection = props => (
       //   }
 
       .tc-hf--header-container {
-        max-width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        max-width: 1200px;
+        width: 90%;
+        height: 90%;
+        box-sizing: border-box;
         text-align: center;
         margin: 0 auto;
+        background-color: white;
+        box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.19),
+          0 6px 6px rgba(0, 0, 0, 0.23);
+        box-radius: 2px;
       }
 
       .tc-hf--header .tc-hf--title {
-        font-family: "Griffy", cursive;
+        font-family: "Arvo", serif;
         font-size: 4rem;
-        color: white;
         letter-spacing: 5px;
         margin-bottom: 2rem;
       }
@@ -72,9 +84,8 @@ const HeaderSection = props => (
       }
 
       .tc-hf--header .tc-hf--subtitle {
-        font-family: "Open Sans", sans-serif;
+        font-family: "Special Elite", cursive;
         font-size: 1.5rem;
-        color: white;
         font-weight: 400;
       }
 
@@ -83,12 +94,11 @@ const HeaderSection = props => (
       }
 
       .tc-hf--header-button {
-        font-family: "Griffy", cursive;
-        background-color: #ff9a56;
+        font-family: "Arvo", serif;
+        background-color: white;
         padding: 1rem 2rem;
         font-size: 2rem;
-        border: 1px solid white;
-        border-radius: 4px;
+        border: 1px solid black;
       }
     `}</style>
   </header>
