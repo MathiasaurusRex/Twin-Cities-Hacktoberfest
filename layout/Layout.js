@@ -16,7 +16,7 @@ class Layout extends Document {
   }
   render() {
     return (
-      <div className="mr-site-wrapper">
+      <div>
         <Head>
           <title>{this.props.title}</title>
           <meta name="description" content={this.props.metaDescription} />

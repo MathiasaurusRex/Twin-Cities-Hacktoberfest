@@ -12,6 +12,7 @@ const Index = props => (
     siteURL="https://www.mathiasrechtzigel.com"
   >
     <HeaderSection />
+    <HeaderSection />
   </Layout>
 );
 
