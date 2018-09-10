@@ -19,10 +19,7 @@
     "next": "^6.1.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-ga": "^2.5.3",
-    "react-transition-group": "^2.4.0",
-    "rimp": "^0.1.5",
-    "xhr2": "^0.1.4"
+    "react-ga": "^2.5.3"
   },
   "devDependencies": {},
   "repository": {
