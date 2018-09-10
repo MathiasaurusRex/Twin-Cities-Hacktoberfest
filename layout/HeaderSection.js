@@ -192,7 +192,21 @@ const HeaderSection = props => (
         font-size: 3rem;
         border-bottom: 2px solid black;
       }
-
+      @media only screen and (max-width: 800px) {
+        .tc-hf--header .tc-hf--title {
+          font-size: 2rem;
+        }
+        .tc-hf--header .tc-hf--subtitle > .tc-hf--subtitle-top {
+          font-size: 1.8rem;
+        }
+        .tc-hf--header-container {
+          padding: 2rem;
+          margin: 2rem;
+        }
+        .flex-seperate {
+          margin-bottom: 4rem;
+        }
+      }
       .tc-hf--header .tc-hf--header-copy {
         margin-bottom: 4rem;
       }
