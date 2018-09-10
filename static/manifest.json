@@ -1,0 +1,45 @@
+{
+  "name": "Mathias Rechtzigel",
+  "short_name": "Mathias",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f8f8f8",
+  "theme_color": "#175a75",
+  "description": "The personal website of Mathias Rechtzigel",
+  "icons": [
+    {
+      "src": "./rexseagull_logo.svg",
+      "sizes": "48x48",
+      "type": "image/svg"
+    },
+    {
+      "src": "./rexseagull_logo.svg",
+      "sizes": "72x72",
+      "type": "image/svg"
+    },
+    {
+      "src": "./rexseagull_logo.svg",
+      "sizes": "96x96",
+      "type": "image/svg"
+    },
+    {
+      "src": "./rexseagull_logo.svg",
+      "sizes": "144x144",
+      "type": "image/svg"
+    },
+    {
+      "src": "./rexseagull_logo.svg",
+      "sizes": "168x168",
+      "type": "image/svg"
+    },
+    {
+      "src": "./rexseagull_logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg"
+    }
+  ]
+  // "related_applications": [{
+  //   "platform": "play",
+  //   "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
+  // }]
+}
