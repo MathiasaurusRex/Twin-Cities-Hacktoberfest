@@ -20,20 +20,11 @@ We'll be building a website together! http://tchacktoberfest.com/ COMING SOON
 + CSS
 + JavaScript
 
-## Oh many I haven't used one of these things before, where can I learn more about it?
+## I haven't used one of these things before, where can I learn more about it?
 
-### What is Git?
+If you're feeling ambitious I highly suggest going through FreeCodeCamp.org to get a understanding of what the following items are. FCC's mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public. We also have thousands of freeCodeCamp study groups around the world.
 
-In one sentence: 
-Git is a tool that allows you to back up your code and collaborate with other people.
-
-From Wikipedia:
-Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development, but it can be used to keep track of changes in any set of files. [Wikipedia] (https://en.wikipedia.org/wiki/Git) 
-
-Guides to help you get started with Github:
-
-+ Hello World - Github Guides : https://guides.github.com/activities/hello-world/
-+ How you can learn Git and GitHub while you’re learning to code : https://medium.freecodecamp.org/how-you-can-learn-git-and-github-while-youre-learning-to-code-7a592ea287ba
+There is no expectation for you to go through FCC before contributing to this project or scheduling some 1:1 time -- but repetition and repeated exposure to topics from different perspectives is often the fastest way to obtain a mastery of a topic.
 
 
 ### What is HTML?
@@ -53,8 +44,41 @@ In this project we will be writing HTML inside of JSX -- JSX is a "sytax extensi
 
 
 ### What is CSS?
+
+In one sentence: 
+CSS ( Cascading Style Sheets ) is the language used to style HTML.
+
+From Wikipedia:
+Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. [Wikipedia](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+Guides to help you get started writing CSS:
+
++ Codecademy - https://www.codecademy.com/learn/learn-css
++ CSS Tricks - https://css-tricks.com/
+
+
 ### What is JavaScript?
+
+In one sentence:
+Javascript is the langauge used to create custom functionality on web pages.
+
+From Wikipedia:
+JavaScript often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm. [Wikipedia](https://en.wikipedia.org/wiki/JavaScript)
+
 #### What is React?
 #### What is NextJS?
 #### What is Node?
 #### What is NPM ( Node Package Manager ) ? 
+
+### What is Git?
+
+In one sentence: 
+Git is a tool that allows you to back up your code and collaborate with other people.
+
+From Wikipedia:
+Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source code management in software development, but it can be used to keep track of changes in any set of files. [Wikipedia] (https://en.wikipedia.org/wiki/Git) 
+
+Guides to help you get started with Github:
+
++ Hello World - Github Guides : https://guides.github.com/activities/hello-world/
++ How you can learn Git and GitHub while you’re learning to code : https://medium.freecodecamp.org/how-you-can-learn-git-and-github-while-youre-learning-to-code-7a592ea287ba
