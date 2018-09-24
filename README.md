@@ -65,7 +65,31 @@ Javascript is the langauge used to create custom functionality on web pages.
 From Wikipedia:
 JavaScript often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm. [Wikipedia](https://en.wikipedia.org/wiki/JavaScript)
 
+Additional information:
+JS is a term that can be used in many different contexts. One of these contexts has you use JavaScript as a "client-side" language where the developer will create some interaction within the browser. An example of this would be creating a contact form. JS can be used to validate that the information that the user enters before that data gets sent to the server -- creating a better user experience.
+
+"Server-side" where a developer can leverage a javascript library ( in our case express.js ) to run a web server with NodeJS. This web server can be hosted locally ( leveraging your localhost ) or hosted on a service that allows you to run NodeJS ( such as Heroku, Digital Ocean, Zeit )
+
+
+#### What is ES5/6/7/8
+In one sentence: The JavaScript community has come together to agree on a standard that is updated on a yearly basis and features are implemented by the major browsers.
+
+From Wikipedia:
+ECMAScript (or ES) is a trademarked scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262. It was created to standardize JavaScript, so as to foster multiple independent implementations. JavaScript has remained the best-known implementation of ECMAScript since the standard was first published, with other well-known implementations including JScript and ActionScript ECMAScript is commonly used for client-side scripting on the World Wide Web, and it is increasingly being used for writing server applications and services using Node.js. [Wikipedia](https://en.wikipedia.org/wiki/ECMAScript#9th_Edition_-_ECMAScript_2018)
+
+
 #### What is React?
+
+In one sentence:
+React is a state-based JavaScript library used to create user interfaces.
+
+From Wikipedia:
+In computing, React (also known as React.js or ReactJS) is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.
+
+React can be used as a base in the development of single-page or mobile applications. Complex React applications usually require the use of additional libraries for state management, routing, and interaction with an API. [Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+
+
+
 #### What is NextJS?
 #### What is Node?
 #### What is NPM ( Node Package Manager ) ? 
