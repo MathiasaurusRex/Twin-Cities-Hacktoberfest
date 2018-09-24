@@ -27,16 +27,16 @@ Create a Github Account and Fork the Repo:
 1. Create a Github Account
 2. Fork this Repo by clicking the "Fork" icon in the top right corner.
 3. See if Git is installed by opening your terminal application and typing: git --version
-  + If Git is not installed you can download the latest version of git here: https://git-scm.com/downloads
+    + If Git is not installed you can download the latest version of git here: https://git-scm.com/downloads
 4. Install Node.JS on your machine ( https://nodejs.org/en/ ) -- downloading the 8.X version is recommended.
-  + Once Node is installed you can verify that it is working by opening your terminal application and typing: node -v <enter>
-  + This should return the version of Node that you downloaded and installd ( Example: v8.6.0 )
+    + Once Node is installed you can verify that it is working by opening your terminal application and typing: node -v <enter>
+    + This should return the version of Node that you downloaded and installd ( Example: v8.6.0 )
 5. Clone your forked repository ( https://github.com/<YOURUSERNAME>/win-Cities-Hacktoberfest.git ) down to your local machine
-  + ( Additional steps )
+    + ( Additional steps )
 6. Install all of the dependencies using NPM
-  + ( Additional steps )
+    + ( Additional steps )
 7. Start your local server
-  + ( Additional steps
+    + ( Additional steps
 8. < Steps of which files to edit >
 
 
