@@ -88,11 +88,35 @@ In computing, React (also known as React.js or ReactJS) is a JavaScript library 
 
 React can be used as a base in the development of single-page or mobile applications. Complex React applications usually require the use of additional libraries for state management, routing, and interaction with an API. [Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))
 
+Guides to help you get started with React:
+
++ Intro to React - https://reactjs.org/tutorial/tutorial.html
++ Learn React in 5 Minutes - https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4
++ Wes Bos's React for Beginners ( Paid, but really good ) - https://reactforbeginners.com/
 
 
 #### What is NextJS?
+
+In one sentence: NextJS is a framework for React that streamlines some of the processes and allows server-side rendering.
+
+Guides to help you get started with NextJS:
+
++ NextJS Tutorial - https://nextjs.org/learn/
+
+
 #### What is Node?
+
+In one sentence: Node is a Javascript runtime that allows you to write and run Javascript outside of the browser.
+
+From Wikipedia:
+Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser. Historically, JavaScript was used primarily for client-side scripting, in which scripts written in JavaScript are embedded in a webpage's HTML and run client-side by a JavaScript engine in the user's web browser. Node.js lets developers use JavaScript to write Command Line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm unifying web application development around a single programming language, rather than different languages for server side and client side scripts. [Wikipedia](https://en.wikipedia.org/wiki/Node.js)
+
 #### What is NPM ( Node Package Manager ) ? 
+
+In one sentence: NPM is a tool that allows developers to manage and install code libraries that are maintained by the open source community.
+
+From Wikipedia:
+npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched via the npm website. The package manager and the registry are managed by npm, Inc. [Wikipedia](npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched via the npm website. The package manager and the registry are managed by npm, Inc.)
 
 ### What is Git?
 
