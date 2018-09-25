@@ -49,11 +49,15 @@ const GhostbustersMelissa = props => (
           </p>
         </div>
       </div>
+      <h3>
+        This component can be used as an example for doing everything in a
+        single file
+      </h3>
     </div>
     <style jsx>
       {`
         .ghostbusters--container {
-          padding: 2rem;
+          padding: 1rem;
           background-color: #c0a8e8;
           background-image: url(../static/assets/whitenoise-361x370.png);
         }
@@ -64,10 +68,10 @@ const GhostbustersMelissa = props => (
           flex-direction: column;
           position: relative;
           max-width: 1200px;
-          padding: 4rem;
+          padding: 2rem;
           box-sizing: border-box;
           text-align: center;
-          margin: 4rem auto;
+          margin: 2rem auto;
           background-color: white;
           box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.19),
             0 6px 6px rgba(0, 0, 0, 0.23);
@@ -93,6 +97,7 @@ const GhostbustersMelissa = props => (
         .media-card--copy {
           margin: 0 2rem;
         }
+
         .media-card--copy h1 {
           font-family: "Arvo", serif;
           font-size: 4rem;
@@ -162,6 +167,22 @@ const GhostbustersMelissa = props => (
           cy: 250;
           r: 200;
           transform-origin: 250px 255px;
+        }
+
+        @media only screen and (max-width: 800px) {
+          .media-card {
+            flex-direction: column;
+          }
+
+          .media-card--copy h1 {
+            font-size: 2rem;
+          }
+
+          .media-card--blob {
+            width: 100%;
+            transform: rotate(180deg);
+            margin-top: -4px;
+          }
         }
       `}
     </style>

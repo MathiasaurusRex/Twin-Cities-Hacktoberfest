@@ -5,6 +5,9 @@ import Layout from "../layout/Layout";
 import HeaderSection from "../layout/HeaderSection";
 
 import GhostbustersMelissa from "../personalsections/ghostbustersMelissa/GhostbustersMelissa";
+import GhostbustersKate from "../personalsections/ghostbustersKate/GhostbustersKate";
+import GhostbustersKristen from "../personalsections/ghostbustersKristen/GhostbustersKristen";
+import GhostbustersLeslie from "../personalsections/ghostbustersLeslie/GhostbustersLeslie";
 
 const Index = props => (
   <Layout
@@ -15,6 +18,11 @@ const Index = props => (
     <HeaderSection />
 
     <GhostbustersMelissa />
+    <GhostbustersKate />
+    <GhostbustersKristen />
+    <GhostbustersLeslie />
+
+    {/* Add your section component below here: */}
   </Layout>
 );
 
