@@ -3,7 +3,11 @@ import fetch from "isomorphic-unfetch";
 
 import Layout from "../layout/Layout";
 import HeaderSection from "../layout/HeaderSection";
-// import WordPressAPI from '../utils/api';
+
+import GhostbustersMelissa from "../personalsections/ghostbustersMelissa/GhostbustersMelissa";
+import GhostbustersKate from "../personalsections/ghostbustersKate/GhostbustersKate";
+import GhostbustersKristen from "../personalsections/ghostbustersKristen/GhostbustersKristen";
+import GhostbustersLeslie from "../personalsections/ghostbustersLeslie/GhostbustersLeslie";
 
 const Index = props => (
   <Layout
@@ -12,6 +16,13 @@ const Index = props => (
     siteURL="https://www.mathiasrechtzigel.com"
   >
     <HeaderSection />
+
+    <GhostbustersMelissa />
+    <GhostbustersKate />
+    <GhostbustersKristen />
+    <GhostbustersLeslie />
+
+    {/* Add your section component below here: */}
   </Layout>
 );
 

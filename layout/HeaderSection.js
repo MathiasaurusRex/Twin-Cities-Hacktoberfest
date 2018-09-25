@@ -149,10 +149,10 @@ const HeaderSection = props => (
         position: relative;
         max-width: 1200px;
         min-height: 90vh;
-        padding: 4rem;
+        padding: 1rem;
         box-sizing: border-box;
         text-align: center;
-        margin: 4rem;
+        margin: 1rem;
         background-color: white;
         box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.19),
           0 6px 6px rgba(0, 0, 0, 0.23);
@@ -194,7 +194,7 @@ const HeaderSection = props => (
       }
       @media only screen and (max-width: 800px) {
         .tc-hf--header .tc-hf--title {
-          font-size: 2rem;
+          font-size: 1.8rem;
         }
         .tc-hf--header .tc-hf--subtitle > .tc-hf--subtitle-top {
           font-size: 1.8rem;
