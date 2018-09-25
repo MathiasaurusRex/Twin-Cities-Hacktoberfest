@@ -3,7 +3,8 @@ import fetch from "isomorphic-unfetch";
 
 import Layout from "../layout/Layout";
 import HeaderSection from "../layout/HeaderSection";
-// import WordPressAPI from '../utils/api';
+
+import GhostbustersMelissa from "../personalsections/ghostbustersMelissa/GhostbustersMelissa";
 
 const Index = props => (
   <Layout
@@ -12,6 +13,8 @@ const Index = props => (
     siteURL="https://www.mathiasrechtzigel.com"
   >
     <HeaderSection />
+
+    <GhostbustersMelissa />
   </Layout>
 );
 
