@@ -9,6 +9,7 @@ import GhostbustersKate from "../personalsections/ghostbustersKate/GhostbustersK
 import GhostbustersKristen from "../personalsections/ghostbustersKristen/GhostbustersKristen";
 import GhostbustersLeslie from "../personalsections/ghostbustersLeslie/GhostbustersLeslie";
 import CarissaM from "../personalsections/carissam/CarissaM";
+import AlexandriaC from "../personalsections/alexandriac/AlexandriaC";
 
 const Index = props => (
   <Layout
@@ -23,6 +24,7 @@ const Index = props => (
     <GhostbustersKristen />
     <GhostbustersLeslie />
     <CarissaM/>
+    <AlexandriaC />
 
     <div>Hey! I'm just testing this.</div>
 
