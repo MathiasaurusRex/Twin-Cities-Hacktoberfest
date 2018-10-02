@@ -23,7 +23,7 @@ const Index = props => (
     <GhostbustersKate />
     <GhostbustersKristen />
     <GhostbustersLeslie />
-    <CarissaM/>
+    <CarissaM />
     <AlexandriaC />
 
     <div>Hey! I'm just testing this.</div>
