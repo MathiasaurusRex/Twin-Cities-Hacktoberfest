@@ -9,8 +9,10 @@ class Animal extends Document {
     }
     render() {
         return(
-            <div>
+            <div className={this.props.classModifier}>
                 <h1>{this.props.animalname}</h1>
+                <p> {this.props.classModifier}</p><p> {this.props.classModifier}</p>
+                <p> {this.props.classModifier}</p><p> {this.props.classModifier}</p><p> {this.props.classModifier}</p>
                 <p>{this.props.animaldescription}</p>
             </div>
               

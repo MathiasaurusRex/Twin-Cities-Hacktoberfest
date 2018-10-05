@@ -13,9 +13,10 @@ class AugustJ extends Document {
                <Header></Header>
                <Footer></Footer>
                <Animal
+               classModifier="square"
                animalname="Cat" animaldescription="It has 4 legs.">
                </Animal>
-               <Animal animalname="Dog" animaldescription="It barks."></Animal>
+               <Animal classModifier="triangle"animalname="Dog" animaldescription="It barks."></Animal>
                 
             </div>
         )
