@@ -3,7 +3,7 @@ import fetch from "isomorphic-unfetch";
 
 import Layout from "../layout/Layout";
 import Randala from "../personalsections/randala/Randala.js";
-
+import AugustJ from "../personalsections/augustj/AugustJ.js";
 const playground = props => (
   <Layout
     title="Twin Cities Hacktoberfest 2018"
@@ -13,7 +13,7 @@ const playground = props => (
 
 
     <Randala />
-
+    <AugustJ />
   </Layout>
 );
 
