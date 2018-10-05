@@ -13,8 +13,7 @@ const playground = props => (
 
 
     <Randala />
-    <AugustJ description="199"/>
-    <AugustJ description="200"/>
+    <AugustJ />
   </Layout>
 );
 
