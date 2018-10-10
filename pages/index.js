@@ -11,6 +11,7 @@ import GhostbustersLeslie from "../personalsections/ghostbustersLeslie/Ghostbust
 import CarissaM from "../personalsections/carissam/CarissaM";
 import AlexandriaC from "../personalsections/alexandriac/AlexandriaC";
 import Randala from "../personalsections/randala/Randala";
+import Agi from "../personalsections/agi/Agi";
 
 
 const Index = props => (
@@ -29,6 +30,7 @@ const Index = props => (
     <AlexandriaC />
     <Randala name="Randala"/>
     <Randala name="Mathias"/>
+    <Agi/>
 
     <div>Hey! I'm just testing this.</div>
 
