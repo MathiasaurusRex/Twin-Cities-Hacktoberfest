@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import Document from 'next/document';
 
-class SearchBar extends Component {
+class SearchBar extends Document {
   constructor(props) {
       super(props);
-      
-    //only inside the constructor function, we manpiulate state/ other places, we use this.setState
+
       this.state = { city: '' }; 
   }
 
@@ -13,10 +12,15 @@ class SearchBar extends Component {
     return (
         <div>
             <input 
-                Value = {this.state.city}
-                onChange={event => this.setState({ city: event.target.value})} />
+                //value = {this.state.city}
+                onChange={event => this.props.UpdateSearch(event.target.value)} />
+
+                {/* <input 
+                value = {this.state.city}
+                onChange={event => this.setState({ city: event.target.value})} /> */}
         </div>
     );
   } 
 }
+
 export default SearchBar;
