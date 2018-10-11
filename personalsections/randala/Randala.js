@@ -1,6 +1,6 @@
 import React, { Component }from 'react'; 
 import ReactDOM from 'react-dom'; 
-import NameCard from './components/NameCard';
+import SearchBar from './components/SearchBar';
 const SkyScanner_API_KEY = "";
 const OpenLibrary_API_KEY = "";
 const SygicTravel_API_KEU = "";
