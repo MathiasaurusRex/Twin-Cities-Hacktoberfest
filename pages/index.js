@@ -10,7 +10,9 @@ import GhostbustersKristen from "../personalsections/ghostbustersKristen/Ghostbu
 import GhostbustersLeslie from "../personalsections/ghostbustersLeslie/GhostbustersLeslie";
 import CarissaM from "../personalsections/carissam/CarissaM";
 import AlexandriaC from "../personalsections/alexandriac/AlexandriaC";
+
 import RandalaApp from "../personalsections/randala/RandalaApp";
+import Agi from "../personalsections/agi/Agi";
 
 
 const Index = props => (
@@ -29,6 +31,7 @@ const Index = props => (
     <AlexandriaC />
     <RandalaApp name="Randala"/>
     <RandalaApp name="Mathias"/>
+    <Agi/>
 
     <div>Hey! I'm just testing this.</div>
 
