@@ -26,6 +26,7 @@ export default class MyDocument extends Document {
           />
 
           <link rel="stylesheet" href="/_next/static/style.css" />
+          <link  rel="stylesheet" href= 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' />
           <link
             href="https://fonts.googleapis.com/css?family=Arvo:700|Special+Elite"
             rel="stylesheet"
