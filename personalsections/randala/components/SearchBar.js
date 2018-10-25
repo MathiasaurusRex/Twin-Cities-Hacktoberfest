@@ -7,20 +7,18 @@ class SearchBar extends Document {
       this.state = { city: '' }; 
   }
 
+ 
 
   render() {
     return (
         <div>
             <input 
-                //value = {this.state.city}
                 onChange={event => this.props.UpdateSearch(event.target.value)} />
-
-                {/* <input 
-                value = {this.state.city}
-                onChange={event => this.setState({ city: event.target.value})} /> */}
         </div>
     );
-  } 
+  }
 }
+
+SearchBar.defaultProps = {city :'Minneapolis'}//check? 
 
 export default SearchBar;
