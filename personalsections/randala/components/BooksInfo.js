@@ -1,5 +1,5 @@
 import Document from 'next/document';
-import RandalaApp from './RandalaApp';
+
 
 
 class BooksInfo extends Document {
@@ -9,6 +9,8 @@ class BooksInfo extends Document {
       this.state = { city: '' }; 
 
   }
+
+
 
   async componentDidMount() {
     const { id } = this.props.searchState;
@@ -25,6 +27,11 @@ class BooksInfo extends Document {
         <div>
             BooksInfo.js
             {this.props.searchState}
+            <style jsx>
+            {`div {color: red !important}`
+
+            }
+            </style>
         </div>
     );
   } 
