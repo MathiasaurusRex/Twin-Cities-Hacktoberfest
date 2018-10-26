@@ -3,14 +3,9 @@ import SearchBar from './components/SearchBar';
 import BooksInfo from './components/BooksInfo';
 import TravelInfo from './components/TravelInfo';
 import Visual from './components/Visual';
-import { styles } from './styles';
 
 
-const styles = { background: 'lightblue',
-                color: 'darkred',
-                marginTop: '100px',
-                fontSize: '50px'
-               };
+
 
 
 class RandalaApp extends Document {
@@ -18,7 +13,7 @@ class RandalaApp extends Document {
         super(props);
   
         this.state = { city: '' }; 
-        this.UpdateSearch = this.UpdateSearch.bind(this); // binding in react?
+        this.UpdateSearch = this.UpdateSearch.bind(this); 
     }
 
     UpdateSearch(searchString) {
